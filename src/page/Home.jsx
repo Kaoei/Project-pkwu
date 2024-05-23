@@ -1,5 +1,6 @@
 // Section Import
 import FirstSection from "./FirstSection";
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -28,7 +29,7 @@ function Home() {
 
 
         {/* Footer Section */}
-
+            <Footer />
         {/* End Footer Section */}
         </>
     );
