@@ -1,13 +1,14 @@
 // Section Import
 import FirstSection from "./FirstSection";
 import Footer from "./Footer";
+import banner from '../assets/homeatas.png';
 
 function Home() {
     return (
         <>
 
         {/* Main Page */}
-        <div className="h-[90vh] w-full grid grid-rows-10">
+        {/* <div className="h-[90vh] w-full grid grid-rows-10">
             <div className="row-span-1 flex justify-center items-center">
                 <h1 className="text-xs font-sans font-extrabold">@2024</h1>
             </div>
@@ -19,6 +20,11 @@ function Home() {
                     <h1 className="text-9xl font-extrabold">ROY YOBIHANA</h1>
                 </div>
             </div>
+        </div> */}
+
+        <div className="flex justify-center items-start">
+        <h1 className="md:text-xs text-[8px] font-sans font-extrabold absolute md:mt-3">@2024</h1>
+            <img src={banner} alt="" />
         </div>
         {/* End Main Page */}
 
