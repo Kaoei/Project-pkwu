@@ -22,7 +22,7 @@ function Home() {
             </div>
         </div> */}
 
-        <div className="flex justify-center items-start">
+        <div className="flex justify-center items-start p-5">
         <h1 className="md:text-xs text-[8px] font-sans font-extrabold absolute md:mt-3">@2024</h1>
             <img src={banner} alt="" />
         </div>
